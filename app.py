@@ -39,51 +39,49 @@ class DataLoader():
         return general
 
 class General():
-    def cat(self, person, category):
-        if person.Plec == 'F':
+    def cat(self, ur, plec, category):
+        if plec == 'F':
             cat = 'K'
         else:
             cat = "M"
         
         for row in category.itertuples():
-            if person.Ur > row.max and  person.Ur < row.min:
+            if ur > row.max and  ur < row.min:
                 cat = cat + '_' + row.category
         return cat
 
     def add_data(self, general, results, category, score):
         for i in range(len(results)):
-            for row in results[i].itertuples():
-                person = row.Nazwisko + row.Imie
+            for index, nazwisko, imie, trasa, miejsce, ur, plec in results[i].itertuples():
+                
+                person = nazwisko + imie
                 if person not in general.values:
-                    print(type(general))
                     columns = general.columns
                     new_row = dict.fromkeys(columns, None)
                     
-                    new_row['Nazwisko i imie'] = person
-                    new_row['Kategoria'] = self.cat(row, category)
-                    new_row[f'''cat_etap_{i}'''] = row.Trasa
-                    new_row[f'''place_etap_{i}'''] = row.Miejsce
+                    new_row['Nazwisko i imie'] = nazwisko + imie
+                    new_row['Kategoria'] = self.cat(ur, plec, category)
+                    new_row[f'cat_etap_{i}'] = trasa
+                    new_row[f'place_etap_{i}'] = miejsce
                     try:
-                        new_row[f'''score_etap_{i}'''] = score.loc['A'][int(row.Miejsce) - 1]
+                        new_row[f'score_etap_{i}'] = score.loc['A'][int(miejsce) - 1]
                     except:
-                        new_row[f'''score_etap_{i}'''] = 0
+                        new_row[f'score_etap_{i}'] = 0
                     general = general.append(new_row, ignore_index = True)
                 else:
                     
-                    general.at[f'''cat_etap_{i}'''][person] = row.Trasa
-                    general.at[f'''place_etap_{i}'''][person] = row.Miejsce
+                    general.at[index, f'cat_etap_{i}'] = trasa
+                    general.at[index, f'place_etap_{i}'] = miejsce
                     try:
-                        general.at[f'''score_etap_{i}'''][person] = score.loc['A'][int(row.Miejsce) - 1]
+                        general.at[index, f'score_etap_{i}'] = score.loc['A'][int(miejsce) - 1]
                     except:
-                        general.at[f'''score_etap_{i}'''][person] = 0
+                        general.at[index, f'score_etap_{i}'] = 0
         return general
     
-    def calculate(self, general):
-        for r in range(len(general)):
-            person = general.loc[0][r]
-            general.at['sum'][person] = 0
-            for i in range(5, len(general), 3):
-                general.at['sum'][person] += general.loc[i][r]
+    def calculate(self, general, etaps):
+        temp = [f'score_etap_{i}' for i in range(etaps)]
+        general['sum'] = general[temp].sum(axis = 1)
+             
         return general
 
 if __name__ == "__main__":
@@ -97,6 +95,5 @@ if __name__ == "__main__":
         results.append(loader.result_loader(f'results_etap_{i+1}.csv'))
     general = loader.general_loader(etaps)
     general = general_calc.add_data(general, results, category, score)
-    print(general)
-    general = general_calc.calculate(general)
-    print(general)
+    general = general_calc.calculate(general, etaps)
+    general.to_csv('general.csv')

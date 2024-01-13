@@ -40,13 +40,13 @@ class DataLoader():
 
 class General():
     def cat(self, ur, plec, category):
-        if plec == 'F':
+        if plec == 'K':
             cat = 'K'
         else:
             cat = "M"
         
         for row in category.itertuples():
-            if ur > row.max and  ur < row.min:
+            if ur >= row.max and  ur <= row.min:
                 cat = cat + '_' + row.category
         return cat
 
@@ -54,17 +54,17 @@ class General():
         for i in range(len(results)):
             for index, nazwisko, imie, trasa, miejsce, ur, plec in results[i].itertuples():
                 
-                person = nazwisko + imie
+                person = nazwisko + str(" ") + str(imie)
                 if person not in general.values:
                     columns = general.columns
                     new_row = dict.fromkeys(columns, None)
                     
-                    new_row['Nazwisko i imie'] = nazwisko + imie
+                    new_row['Nazwisko i imie'] = nazwisko + " " + str(imie)
                     new_row['Kategoria'] = self.cat(ur, plec, category)
                     new_row[f'cat_etap_{i}'] = trasa
                     new_row[f'place_etap_{i}'] = miejsce
                     try:
-                        new_row[f'score_etap_{i}'] = score.loc['A'][int(miejsce) - 1]
+                        new_row[f'score_etap_{i}'] = score.loc[trasa][int(miejsce) - 1]
                     except:
                         new_row[f'score_etap_{i}'] = 0
                     general = general.append(new_row, ignore_index = True)
@@ -73,7 +73,7 @@ class General():
                     general.at[index, f'cat_etap_{i}'] = trasa
                     general.at[index, f'place_etap_{i}'] = miejsce
                     try:
-                        general.at[index, f'score_etap_{i}'] = score.loc['A'][int(miejsce) - 1]
+                        general.at[index, f'score_etap_{i}'] = score.loc[trasa][int(miejsce) - 1]
                     except:
                         general.at[index, f'score_etap_{i}'] = 0
         return general
@@ -96,4 +96,4 @@ if __name__ == "__main__":
     general = loader.general_loader(etaps)
     general = general_calc.add_data(general, results, category, score)
     general = general_calc.calculate(general, etaps)
-    general.to_csv('general.csv')
+    general.to_csv('general_A.csv')

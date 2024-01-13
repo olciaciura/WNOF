@@ -53,13 +53,15 @@ class General():
     def add_data(self, general, results, category, score):
         for i in range(len(results)):
             for index, nazwisko, imie, trasa, miejsce, ur, plec in results[i].itertuples():
-                
-                person = nazwisko + str(" ") + str(imie)
+                try:
+                    person = nazwisko + imie
+                except:
+                    person = nazwisko
                 if person not in general.values:
                     columns = general.columns
                     new_row = dict.fromkeys(columns, None)
                     
-                    new_row['Nazwisko i imie'] = nazwisko + " " + str(imie)
+                    new_row['Nazwisko i imie'] = person
                     new_row['Kategoria'] = self.cat(ur, plec, category)
                     new_row[f'cat_etap_{i}'] = trasa
                     new_row[f'place_etap_{i}'] = miejsce
@@ -73,6 +75,7 @@ class General():
                     general.at[index, f'cat_etap_{i}'] = trasa
                     general.at[index, f'place_etap_{i}'] = miejsce
                     try:
+                        general.at[index, f'score_etap_{i}'] = score.loc[trasa][int(miejsce) - 1]
                         general.at[index, f'score_etap_{i}'] = score.loc[trasa][int(miejsce) - 1]
                     except:
                         general.at[index, f'score_etap_{i}'] = 0
@@ -92,6 +95,7 @@ if __name__ == "__main__":
     results = []
     etaps = int(input('Podaj liczbe etapów: '))
     for i in range(etaps):
+        print(i)
         results.append(loader.result_loader(f'results_etap_{i+1}.csv'))
     general = loader.general_loader(etaps)
     general = general_calc.add_data(general, results, category, score)

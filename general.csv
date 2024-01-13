@@ -1,0 +1,251 @@
+,Nazwisko i imie,Kategoria,cat_etap_0,place_etap_0,score_etap_0,cat_etap_1,place_etap_1,score_etap_1,cat_etap_2,place_etap_2,score_etap_2,sum
+0,DziobaMateusz,M,A,1.0,50,,,,,,,50.0
+1,PaterekMiko�aj,M,A,2.0,46,A1,2.0,0,A,2.0,46,92.0
+2,PancerowiczTomasz,M_MASTER,A,3.0,43,A2,3.0,0,A,3.0,43,86.0
+3,Jo�czyJakub,M,A,4.0,41,,,,,,,41.0
+4,Sobczy�skiKalikst,M_SUPERMASTER,A,5.0,40,A1,5.0,0,,,,40.0
+5,FilipiakMateusz,M_SENIOR,A,6.0,39,A3,6.0,0,A,6.0,39,78.0
+6,FilipiakMarek,M_SUPERMASTER,A,7.0,38,,,,,,,38.0
+7,Machowska-KrupaWeronika,M_MASTER,A,8.0,37,A2,8.0,0,A,8.0,37,74.0
+8,Dopiera�aPiotr,M_SUPERMASTER,A,9.0,36,A3,9.0,0,A,9.0,36,72.0
+9,B�kPiotr,M_SUPERMASTER,A,10.0,35,,,,A,10.0,35,70.0
+10,LisowskiPrzemek,M_MASTER,A,11.0,34,,,,,,,34.0
+11,Ciesi�kaSebastian,M_SUPERMASTER,A,12.0,33,,,,A,12.0,33,66.0
+12,�urawWiktor,M_SENIOR,A,13.0,32,A1,13.0,0,A,13.0,32,64.0
+13,ChmieleckiAdam,M_SENIOR,A,14.0,31,A1,14.0,0,A,14.0,31,62.0
+14,WojciechSebastian,M_MASTER,A,15.0,30,A2,15.0,0,A,15.0,30,60.0
+15,HajdasPrzemys�aw,M,A,16.0,29,A2,16.0,0,A,16.0,29,58.0
+16,FilipiakAdrianna,M,A,17.0,28,A3,17.0,0,A,17.0,28,56.0
+17,G�siorKrzysztof,M_MASTER,A,18.0,27,A4,18.0,0,A,18.0,27,54.0
+18,Mia�kiewiczKrzysztof,M_SUPERMASTER,A,19.0,26,,,,A,19.0,26,52.0
+19,Pochopie�Marek,M_MASTER,A,20.0,25,,,,A,20.0,25,50.0
+20,WodzickiFilip,M_JUNIOR,A,21.0,24,A1,21.0,0,,,,24.0
+21,Szczygie�Marcin,M_SUPERMASTER,A,22.0,23,,,,,,,23.0
+22,DudaJakub,M_MASTER,A,23.0,22,A3,23.0,0,A,23.0,22,44.0
+23,Berna�Tomek,M_MASTER,A,24.0,21,A3,24.0,0,A,24.0,21,42.0
+24,CiszekKatarzyna,M_JUNIOR,A,25.0,20,A1,25.0,0,A,25.0,20,40.0
+25,KarpowiczDaniel,M_SENIOR,A,26.0,19,,,,A,26.0,19,38.0
+26,GugaRomuald,M_SUPERMASTER,A,27.0,18,A4,27.0,0,A,27.0,18,36.0
+27,MaciejewskiMarcin,M_MASTER,A,28.0,17,A3,28.0,0,A,28.0,17,34.0
+28,LubakMariusz,M_MASTER,A,29.0,16,,,,,,,16.0
+29,Sobi�skiAdrian,M,A,30.0,15,A4,30.0,0,A,30.0,15,30.0
+30,Kr�lAdam,M,A,31.0,14,,,,A,31.0,14,28.0
+31,PlutaMarcin,M,A,32.0,13,,,,,,,13.0
+32,SkoniecznyAndrzej,M_SUPERMASTER,A,33.0,12,A1,,0,A,33.0,12,24.0
+33,KurzypMicha�,M,A,34.0,11,A1,,0,A,34.0,11,22.0
+34,WojtczakKrzysztof,M_SUPERMASTER,A,35.0,10,,,,A,35.0,10,20.0
+35,Krzy�ostanekJaros�aw,M_SUPERMASTER,A,36.0,9,A2,,0,,,,9.0
+36,Dobro�Aleksandra,M_JUNIOR,A,37.0,8,A4,,0,A,37.0,8,16.0
+37,LigienzaKrzysztof,M_SUPERMASTER,A,38.0,7,,,,A,38.0,7,14.0
+38,�awrynowiczPiotr,M_SUPERMASTER,A,39.0,6,,,,A,39.0,6,12.0
+39,HorodniczyRados�aw,M,A,40.0,5,A2,,0,A,40.0,5,10.0
+40,Bia�aWeronika,M_MASTER,A,41.0,4,A1,,0,A,41.0,4,8.0
+41,DeringMarcin,M_MASTER,A,42.0,3,A4,,0,A,42.0,3,6.0
+42,Pa�szczykPiotr,M,A,43.0,2,,,,A,43.0,2,4.0
+43,SuwaraMateusz,M_MASTER,A,44.0,1,A4,,0,A,44.0,1,2.0
+44,JakubowskiKrzysztof,M_MASTER,A,45.0,0,A4,,0,,,,0.0
+45,�widerskibartosz,M_SUPERMASTER,A,46.0,0,A1,,0,A,46.0,0,0.0
+46,Domaga�aAndrzej,M,A,47.0,0,A4,,0,A,47.0,0,0.0
+47,Chu�ekAleksander,M_SUPERMASTER,A,48.0,0,A2,,0,A,48.0,0,0.0
+48,PieronekTomasz,M_MASTER,A,49.0,0,A4,,0,A,49.0,0,0.0
+49,GonczarekAdam,M_MASTER,A,50.0,0,A2,,0,A,50.0,0,0.0
+50,Domaga�aEmilia,M_JUNIOR,A,51.0,0,A2,,0,A,51.0,0,0.0
+51,WieszaczewskiJacek,M_MASTER,A,51.0,0,,,,,,,0.0
+52,KruczekDariusz,M,A,53.0,0,A3,,0,A,53.0,0,0.0
+53,RodzewiczKrzysztof,M_SUPERMASTER,A,54.0,0,A2,,0,A,54.0,0,0.0
+54,PacanBogumi�,M,A,55.0,0,B2,1.0,0,A,55.0,0,0.0
+55,Zi�tekAleksandra,M,A,56.0,0,B1,2.0,0,A,56.0,0,0.0
+56,HryciukMiko�aj,M_JUNIOR,A,57.0,0,B1,3.0,0,A,57.0,0,0.0
+57,KrukAneta,M_MASTER,A,58.0,0,B1,4.0,0,,,,0.0
+58,G�bkaBaltazar,M_MASTER,A,59.0,0,B1,5.0,0,A,,0,0.0
+59,KucharskaBarbara,M_SUPERMASTER,A,,0,B1,6.0,0,B,1.0,40,40.0
+60,Pos�usznyPawe�,M,A,,0,B1,7.0,0,B,2.0,36,36.0
+61,KurzypAnna,M_SUPERMASTER,A,,0,B1,8.0,0,B,3.0,33,33.0
+62,PaluchMonika,M_SENIOR,A,,0,B1,9.0,0,B,4.0,31,31.0
+63,Papa�aKarol,M_MASTER,A,,0,B2,10.0,0,B,5.0,30,30.0
+64,CiszekMarcin,M_SUPERMASTER,A,,0,,,,,,,0.0
+65,Jab�o�skiPiotr,M_MASTER,A,,0,B2,12.0,0,B,7.0,28,28.0
+66,Krupa�ukasz,M_MASTER,B,1.0,50,,,,B,8.0,27,77.0
+67,KociubaWiktor,M_JUNIOR,B,2.0,46,B1,14.0,0,B,9.0,26,72.0
+68,�widerskiignacy,M_JUNIOR,B,3.0,43,,,,,,,43.0
+69,WysockaJoanna,M,B,4.0,41,B1,16.0,0,B,11.0,24,65.0
+70,ChmielewskiPawe�,M_MASTER,B,5.0,40,B2,17.0,0,B,12.0,23,63.0
+71,StaniecJulia,M_JUNIOR,B,6.0,39,B2,18.0,0,B,13.0,22,61.0
+72,KucharskaJulia,M_JUNIOR,B,7.0,38,,,,B,14.0,21,59.0
+73,LigienzaAndrzej,M_MASTER,B,8.0,37,B2,20.0,0,B,15.0,20,57.0
+74,Szczygie�Hanna,M_JUNIOR,B,9.0,36,B1,21.0,0,B,16.0,19,55.0
+75,PuternickaJoanna,M_MASTER,B,10.0,35,B1,21.0,0,B,17.0,18,53.0
+76,TomaszewskiJacek,M_MASTER,B,11.0,34,B2,23.0,0,B,18.0,17,51.0
+77,Naro�nyKacper,M_JUNIOR,B,12.0,33,,,,B,19.0,16,49.0
+78,Domaga�aJakub,M_JUNIOR,B,13.0,32,,,,B,20.0,15,47.0
+79,MazurkiewiczBeata,M,B,14.0,31,,,,B,21.0,14,45.0
+80,KucielHanna,M_JUNIOR,B,15.0,30,,,,B,22.0,13,43.0
+81,JanikPatrycja,M,B,16.0,29,,,,B,23.0,12,41.0
+82,G�rowskiS�awomir,M_SUPERMASTER,B,17.0,28,B2,29.0,0,B,24.0,11,39.0
+83,JaniczekKrystyna,M_SUPERMASTER,B,18.0,27,,,,B,25.0,10,37.0
+84,PuchaczRobert,M_SUPERMASTER,B,19.0,26,B1,31.0,0,B,26.0,9,35.0
+85,WdowczykPawe�,M_JUNIOR,B,20.0,25,B1,32.0,0,B,27.0,8,33.0
+86,Cie�lakAgnieszka,M_JUNIOR,B,21.0,24,,,,B,27.0,8,32.0
+87,Wyliga�aTomek,M_SUPERMASTER,B,22.0,23,,,,,,,23.0
+88,GontarzWojciech,M_MASTER,B,23.0,22,,,,B,30.0,5,27.0
+89,Ciasto�Oliwia,M_JUNIOR,B,24.0,21,B2,,0,B,31.0,4,25.0
+90,Cegie�kaMilena,M_JUNIOR,B,25.0,20,B2,,0,B,32.0,3,23.0
+91,FilipiakAgnieszka,M_SUPERMASTER,B,26.0,19,,,,B,33.0,2,21.0
+92,�wierczy�skaJulia,M,B,27.0,18,B2,,0,B,34.0,1,19.0
+93,Z�otowskiMicha�,M_JUNIOR,B,28.0,17,,,,,,,17.0
+94,KuchtaAlicja,M,B,29.0,16,,,,B,36.0,0,16.0
+95,Z�otowskaJoanna,M_JUNIOR,B,30.0,15,B1,,0,,,,15.0
+96,MazurkiewiczAgnieszka,M_SUPERMASTER,B,31.0,14,,,,B,38.0,0,14.0
+97,Cieszkowska-KuchtaMagdalena,M_SUPERMASTER,B,32.0,13,,,,,,,13.0
+98,Kr�lJan,M_JUNIOR,B,33.0,12,C2,1.0,0,B,40.0,0,12.0
+99,KuchtaMariusz,M_SUPERMASTER,B,34.0,11,C1,2.0,0,B,41.0,0,11.0
+100,SzyjerMarta,M_MASTER,B,35.0,10,,,,B,42.0,0,10.0
+101,Baca�skiMiros�aw,M_SUPERMASTER,B,36.0,9,,,,B,43.0,0,9.0
+102,KuchtaTomasz,M_JUNIOR,B,,0,,,,,,,0.0
+103,DrewniakWies�aw,M_SUPERMASTER,B,,0,C1,6.0,0,B,45.0,0,0.0
+104,�adomirskiSzymon,M_JUNIOR,C,1.0,50,,,,B,46.0,0,50.0
+105,MazurkiewiczMarta,M_JUNIOR,C,2.0,46,,,,B,47.0,0,46.0
+106,SP17 II Dziewczyny I,M_SENIOR,C,3.0,43,C1,9.0,0,B,48.0,0,43.0
+107,Ja�d�ykAniela,M_JUNIOR,C,4.0,41,C1,10.0,0,,,,41.0
+108,Jo�czyMicha�,M_JUNIOR,C,5.0,40,,,,B,,0,40.0
+109,�uczkowskaOliwia,M_JUNIOR,C,6.0,39,,,,,,,39.0
+110,SP17 I CH,M_SENIOR,C,7.0,38,C2,,0,C,1.0,30,68.0
+111,�wita�aNikola,M_JUNIOR,C,8.0,37,,,,C,2.0,26,63.0
+112,JaniczekZuzanna,M_JUNIOR,C,9.0,36,C2,,0,,,,36.0
+113,SP 17 III DZIEWCZYNY II,M,C,10.0,35,C2,,0,C,4.0,21,56.0
+114,BartczakJonasz,M_JUNIOR,C,11.0,34,MIX2,1.0,0,,,,34.0
+115,SzczepaniakJakub,M_JUNIOR,C,12.0,33,,,,,,,33.0
+116,BzikKacper,M_JUNIOR,C,13.0,32,,,,,,,32.0
+117,Wyliga�aEwa,M_JUNIOR,C,14.0,31,MIX2,4.0,0,C,8.0,17,48.0
+118,Ja�czakIgor,M_JUNIOR,C,,0,,,,C,9.0,16,16.0
+119,Potw�r&Bestia,M_SENIOR,Mix,1.0,50,,,,C,10.0,15,65.0
+120,Karboleszczaki,M,Mix,2.0,46,,,,,,,46.0
+121,Balateam,M_SENIOR,Mix,3.0,43,MIX2,8.0,0,,,,43.0
+122,W�ciek�e Wieszcze,M_SENIOR,Mix,4.0,41,MIX1,9.0,0,,,,41.0
+123,rodzinka.pl,M_SUPERMASTER,Mix,5.0,40,,,,C,14.0,11,51.0
+124,UMLKS Start Wierusz�w 1,M_JUNIOR,Mix,6.0,39,,,,,,,39.0
+125,Grupka Amator�w,M_JUNIOR,Mix,7.0,38,,,,C,16.0,9,47.0
+126,SP 66 Wroc�aw TEAM 2,M_JUNIOR,Mix,8.0,37,,,,,,,37.0
+127,Tomasz Hawron,M_SUPERMASTER,Mix,9.0,36,,,,C,18.0,7,43.0
+128,UMLKS Start Wierusz�w 2,M_JUNIOR,Mix,10.0,35,,,,,,,35.0
+129,SETKA,M_SUPERMASTER,Mix,11.0,34,,,,,,,34.0
+130,�ar�wki,M,Mix,12.0,33,,,,,,,33.0
+131,Brokos,M,Mix,13.0,32,,,,,,,32.0
+132,Owls,M,Mix,14.0,31,,,,C,23.0,2,33.0
+133,Tajlandzkie S�onie,M_MASTER,Mix,,0,,,,,,,0.0
+134,Arkadusie,M_MASTER,Mix,,0,,,,C,25.0,0,0.0
+135,PachnikWojciech,M_MASTER,,,,A4,1.0,50,,,,50.0
+136,PachnikMa�gorzata,M_MASTER,,,,A3,4.0,41,,,,41.0
+137,GmurKarol,M_SUPERMASTER,,,,A4,7.0,38,,,,38.0
+138,Paw�owiczAdam,M_MASTER,,,,A1,10.0,35,Mix,4.0,0,35.0
+139,PachnikDariusz,M_SUPERMASTER,,,,A3,11.0,34,Mix,5.0,0,34.0
+140,WojtczakKtzysztof,M_SUPERMASTER,,,,A1,12.0,33,,,,33.0
+141,DwojakGracjan,M_JUNIOR,,,,A3,19.0,26,,,,26.0
+142,MazurekPiotr,M_SUPERMASTER,,,,A1,19.0,26,,,,26.0
+143,Krzy�ostanekPatrycja,M_JUNIOR,,,,A4,22.0,23,Mix,9.0,0,23.0
+144,KorczycAnna,M_MASTER,,,,A1,26.0,19,,,,19.0
+145,Domaga�aAndzej,M,,,,A4,29.0,16,,,,16.0
+146,PrukopWojciech,M_SUPERMASTER,,,,A2,31.0,14,,,,14.0
+147,CharatonikTomasz,M_SUPERMASTER,,,,A3,32.0,13,,,,13.0
+148,JakuboskiKrzysztof,M_MASTER,,,,A4,,0,,,,0.0
+149,KaczochaMiko�aj,M_JUNIOR,,,,A3,,0,Mix,15.0,0,0.0
+150,Kawa�aMateusz,M_JUNIOR,,,,A3,,0,,,,0.0
+151,Mirowski�ukasz,M_MASTER,,,,A2,,0,,,,0.0
+152,SerwatkaWojciech,M,,,,A3,,0,Mix,18.0,0,0.0
+153,W�jcikWojciech,M_SUPERMASTER,,,,B1,11.0,34,,,,34.0
+154,W�jcikZiemowit,M_JUNIOR,,,,B1,13.0,32,,,,32.0
+155,��ckiJakub,M_JUNIOR,,,,B2,15.0,30,,,,30.0
+156,szczygie�Hanna,M_JUNIOR,,,,B2,19.0,26,Mix,22.0,0,26.0
+157,Stefa�skaAgnieszka,M_JUNIOR,,,,B2,24.0,21,Mix,23.0,0,21.0
+158,Ka�mierczakAmelia,M_JUNIOR,,,,B2,25.0,20,,,,20.0
+159,Kasa�kaEryka,M_JUNIOR,,,,B2,26.0,19,,,,19.0
+160,GwiazdaDawid,M_JUNIOR,,,,B2,27.0,18,,,,18.0
+161,BartczakTobiasz,M_JUNIOR,,,,B2,28.0,17,,,,17.0
+162,W�odarczykRobert,M_JUNIOR,,,,B2,29.0,16,,,,16.0
+163,KulkaWiktoria,M_JUNIOR,,,,B2,,0,,,,0.0
+164,SzeligaSonia,M_JUNIOR,,,,B2,,0,,,,0.0
+165,Marsza�ekAlan,M_JUNIOR,,,,B2,,0,,,,0.0
+166,LigienzaJakub,M_SENIOR,,,,B1,,0,,,,0.0
+167,HalewiczJulia,M_JUNIOR,,,,B2,,0,,,,0.0
+168,Niko�ajukMaja,M_JUNIOR,,,,B2,,0,,,,0.0
+169,UciechowskiBogdan,M,,,,B1,,0,,,,0.0
+170,KorekAnna,M,,,,B2,,0,,,,0.0
+171,M�ykMagdalena,M_MASTER,,,,C1,3.0,43,,,,43.0
+172,M�ykEdward,M_MASTER,,,,C1,4.0,41,,,,41.0
+173,KasperskiMarcin,M_SENIOR,,,,C1,5.0,40,,,,40.0
+174,SP 17 ch�opcy,M,,,,C1,7.0,38,,,,38.0
+175,P�aksejTymoteusz,M_JUNIOR,,,,C2,8.0,37,,,,37.0
+176,PachnikAntoni,M_JUNIOR,,,,C2,,0,,,,0.0
+177,Stefa�skiMarek,M_JUNIOR,,,,C2,,0,,,,0.0
+178,SP17 dziewcz�ta,M,,,,C2,,0,,,,0.0
+179,Zabiegani,M,,,,MIX1,2.0,46,,,,46.0
+180,Orki z Majorki (aka W�ci,M_SENIOR,,,,MIX1,3.0,43,,,,43.0
+181,Kozio�ki,M,,,,MIX2,5.0,40,,,,40.0
+182,Setka ??,M_SUPERMASTER,,,,MIX1,6.0,39,,,,39.0
+183,Orientpark CZARNI,M_JUNIOR,,,,MIX1,7.0,38,,,,38.0
+184,Orientpark BIALI,M_JUNIOR,,,,MIX1,10.0,35,,,,35.0
+185,SP 66 Wroc�aw TEAM 3,M_MASTER,,,,MIX2,11.0,34,,,,34.0
+186,Orientpark ZIELONI,M_JUNIOR,,,,MIX1,12.0,33,,,,33.0
+187,SP 66 Wroc�aw TEAM 1,M_JUNIOR,,,,MIX2,13.0,32,,,,32.0
+188,Arkadusie 2,M_JUNIOR,,,,MIX2,14.0,31,,,,31.0
+189,Orientpark NIEBIESCY,M_JUNIOR,,,,MIX1,15.0,30,,,,30.0
+190,Orientpark CZERWONI,M_JUNIOR,,,,MIX2,,0,,,,0.0
+191,Arkadusie 1,M_JUNIOR,,,,MIX2,,0,,,,0.0
+192,Orientpark FIOLETOWI,M,,,,MIX2,,0,,,,0.0
+193,Orientpark POMARA�CZOWI,M_JUNIOR,,,,MIX1,,0,,,,0.0
+194,OlejnikMicha�,M_MASTER,,,,,,,A,1.0,50,50.0
+195,Stefa�skiDawid,M_MASTER,,,,,,,A,4.0,41,41.0
+196,Wi�niewskaHanna,M_MASTER,,,,,,,A,5.0,40,40.0
+197,PachnikStanis�aw,M,,,,,,,A,7.0,38,38.0
+198,PachnikJ�drzej,M_JUNIOR,,,,,,,A,11.0,34,34.0
+199,LisowskiPrzemys�aw,M_MASTER,,,,,,,A,21.0,24,24.0
+200,Dudajakub,M_MASTER,,,,,,,A,22.0,23,23.0
+201,WieczorekJaros�aw,M_MASTER,,,,,,,A,29.0,16,16.0
+202,LubakKamila,M_MASTER,,,,,,,A,32.0,13,13.0
+203,Wrzesi�skiKrzysztof,M_SUPERMASTER,,,,,,,A,36.0,9,9.0
+204,Musia�aHubert,M_SENIOR,,,,,,,A,45.0,0,0.0
+205,Szcz�snyMicha�,M_JUNIOR,,,,,,,A,52.0,0,0.0
+206,OlejnikAgata,M,,,,,,,A,,0,0.0
+207,�widerskiIgnacy,M_JUNIOR,,,,,,,B,6.0,39,39.0
+208,KorekKacper,M_JUNIOR,,,,,,,B,10.0,35,35.0
+209,MalikWiktoria,M_JUNIOR,,,,,,,B,29.0,16,16.0
+210,FroniaJakub,M_JUNIOR,,,,,,,B,35.0,10,10.0
+211,UciechowskaAmelia,M_JUNIOR,,,,,,,B,37.0,8,8.0
+212,Cegie�kaDamian,M_JUNIOR,,,,,,,B,39.0,6,6.0
+213,WodzickaAleksandra,M_MASTER,,,,,,,B,44.0,1,1.0
+214,StaniuchaKarolina,M_MASTER,,,,,,,B,,0,0.0
+215,Wojszwi��oBorys,M_JUNIOR,,,,,,,B,,0,0.0
+216,TsymbalAnastasia,M_JUNIOR,,,,,,,C,3.0,43,43.0
+217,DutkiewiczWiktoria,M_JUNIOR,,,,,,,C,5.0,40,40.0
+218,SP17 CH,M,,,,,,,C,6.0,39,39.0
+219,RosiekMarta,M_JUNIOR,,,,,,,C,7.0,38,38.0
+220,Szcz�snaMa�gorzata,M_JUNIOR,,,,,,,C,11.0,34,34.0
+221,DrozdowskaNikola,M_JUNIOR,,,,,,,C,12.0,33,33.0
+222,G�dekEmila,M_JUNIOR,,,,,,,C,13.0,32,32.0
+223,UciechowskaOliwia,M_JUNIOR,,,,,,,C,15.0,30,30.0
+224,Kmieci�skaAgata,M_JUNIOR,,,,,,,C,17.0,28,28.0
+225,MikosDominik,M_JUNIOR,,,,,,,C,19.0,26,26.0
+226,GrzybMarcelina,M_JUNIOR,,,,,,,C,20.0,25,25.0
+227,P�kalskiKacper,M_JUNIOR,,,,,,,C,21.0,24,24.0
+228,GromadaMonika,M_JUNIOR,,,,,,,C,22.0,23,23.0
+229,Ja�czakMatylda,M_JUNIOR,,,,,,,C,24.0,21,21.0
+230,ORIENTPARK FIOLETOWI,M_MASTER,,,,,,,Mix,1.0,50,50.0
+231,li�� sosny,M,,,,,,,Mix,2.0,46,46.0
+232,dentalcorner,M,,,,,,,Mix,3.0,43,43.0
+233,Tomasz i Aga Hawron,M_SUPERMASTER,,,,,,,Mix,6.0,39,39.0
+234,ORIENTPARK CZARNI,M_MASTER,,,,,,,Mix,7.0,38,38.0
+235,Setka,M_SUPERMASTER,,,,,,,Mix,8.0,37,37.0
+236,ORIENTPARK CZERWONI,M_JUNIOR,,,,,,,Mix,10.0,35,35.0
+237,Arkadusie 5,M,,,,,,,Mix,11.0,34,34.0
+238,Super Dziewczyny z DENTA,M_MASTER,,,,,,,Mix,12.0,33,33.0
+239,�aby,M_JUNIOR,,,,,,,Mix,13.0,32,32.0
+240,ORIENTPARK NIEBIESCY,M_MASTER,,,,,,,Mix,14.0,31,31.0
+241,ORIENTPARK ZIELONI,M_SUPERMASTER,,,,,,,Mix,16.0,29,29.0
+242,Arkadusie 4,M,,,,,,,Mix,17.0,28,28.0
+243,ORIENTPARK POMARA�CZOWI,M_MASTER,,,,,,,Mix,19.0,26,26.0
+244,ORIENTPARK BIALI,M_SUPERMASTER,,,,,,,Mix,20.0,25,25.0
+245,Arkadusie 3,M,,,,,,,Mix,21.0,24,24.0
+246,Sowia rodzina,M_SUPERMASTER,,,,,,,Mix,,0,0.0
+247,Zacni kochankowie,M_MASTER,,,,,,,Mix,,0,0.0
+248,S�wki,M,,,,,,,Mix,,0,0.0
+

@@ -40,7 +40,7 @@ class DataLoader():
 
 class General():
     def cat(self, ur, plec, category):
-        if plec == 'K':
+        if plec == 'K' or plec == 'F':
             cat = 'K'
         else:
             cat = "M"

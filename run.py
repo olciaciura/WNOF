@@ -24,7 +24,7 @@ class DataLoader():
     
     def general_loader(self):
         try:
-            general = pd.read_csv('general.csv', sep=',')
+            general = pd.read_csv('general_without_sum.csv', sep=',')
             print(general.head(20))
         except FileNotFoundError:
             general = pd.DataFrame(columns=['Nazwisko i imie', 'Kategoria'])
@@ -132,7 +132,7 @@ if __name__ == "__main__":
 
     results = loader.result_loader(f'results_stage_{stages}.csv')
     general = general_calc.add_data(general, results, category, score, stages)
-
+    general.to_csv('general_without_sum.csv', index=False)
     general = general_calc.calculate(general)
-    # general = general_calc.sort(general)
+    general = general_calc.sort(general)
     general.to_csv('general.csv', index=False)

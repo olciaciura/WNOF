@@ -5,9 +5,9 @@ class DataLoader():
     def result_loader(self, name):
         results = pd.read_csv(name, sep = ';', encoding='latin-1')
         print(results.columns)
-        results = results[["Nazwisko", "Imiï¿½", "Trasa", "Miejsce", "Ur.", "Pï¿½eï¿½"]]
-        results = results.rename(columns = {"Imiï¿½":"Imie"})
-        results = results.rename(columns = {"Pï¿½eï¿½":"Plec"})
+        results = results[["Nazwisko", "Imie", "Trasa", "Miejsce", "Ur.", "Plec"]]
+        # results = results.rename(columns = {"Imiï¿½":"Imie"})
+        # results = results.rename(columns = {"Pï¿½eï¿½":"Plec"})
         results = results.rename(columns = {"Ur.":"Ur"})
 
         results = results[results['Trasa'] != 'MIX']
@@ -126,7 +126,7 @@ if __name__ == "__main__":
     general_calc = General()
     category = loader.category_loader()
     score = loader.score_loader()
-    stages = 2  # Assuming there are 3 stages, you can adjust this based on your actual number of stages
+    stages = 1  # Assuming there are 3 stages, you can adjust this based on your actual number of stages
 
     general = loader.general_loader()
 
